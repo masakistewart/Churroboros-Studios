@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "toolkit-dashboard",
-  "version": "1.0.0",
+  "name": "Churroboros Studios",
+  "version": "00.01",
   "description": "A bootstrap toolkit.",
-  "main": "gulpfile.js",
-  "author": "Colossal",
+  "main": "server.js",
+  "author": "Cairo Stewart",
   "scripts": {
-    "start": "./node_modules/.bin/gulp docs"
+    "start": "node server.js"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
