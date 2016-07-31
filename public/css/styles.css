@@ -1,0 +1,11 @@
+a, button, {
+	color: #455A64;
+}
+
+#color {
+	color: #4CAF50;
+}
+
+a.navbar-brand img{
+	height: 58px;
+}
