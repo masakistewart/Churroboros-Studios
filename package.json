@@ -1,12 +1,12 @@
 {
   "private": true,
   "name": "Churroboros-Studios",
-  "version": "00.01",
+  "version": "0.0.00",
   "description": "A bootstrap toolkit.",
   "main": "server.js",
   "author": "Cairo Stewart",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./server.js"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
