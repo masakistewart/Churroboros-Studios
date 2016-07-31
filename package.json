@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "Churroboros Studios",
+  "name": "Churroboros-Studios",
   "version": "00.01",
   "description": "A bootstrap toolkit.",
   "main": "server.js",
