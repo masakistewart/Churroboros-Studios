@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="churro">
 <head>
 	<title>Churroboros Studios</title>
 	<link rel="stylesheet" type="text/css" href="css/toolkit-startup.min.css">
@@ -26,59 +26,7 @@
 	</style>
 </head>
 <body>
-	<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
-		<ul class="nav nav-bordered nav-stacked">
-			<li class="nav-header">Churroboros Studios</li>
-			<li><a href="/#/studio">Studio</a></li>
-			<li><a href="/#/contact">Contact</a></li>
-			<li><a href="/#/team">Team</a></li>
-		</ul>
-	</div>
-
-	<div class="stage" id="stage">
-		<div class="block block-inverse block-fill-height app-header" style="background-image: url(img/main.jpg)">
-			<nav class="navbar navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-md">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed p-x-0"
-              data-target="#stage" data-toggle="stage" data-distance="-250">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a href="/#/" class="navbar-brand" >
-							<img  src="img/logo.png">
-						</a>
-					<div class="navbar-collapse navbar-right collapse text-uppercase">
-					  <ul class="nav navbar-nav">
-					    <li><a href="/#/studio">Studio</a></li>
-					    <li><a href="/#/contact">Contact</a></li>
-					    <li><a href="/#/team">Team</a></li>
-					  </ul>
-					</div><!--/.nav-collapse -->
-				</div>
-			</nav>
-
-			<!-- <img class="app-graph" src="img/main.jpeg"> -->
-
-			<div class="block-xs-middle text-center">
-			  <div class="container" id="color">
-			    <div class="row">
-			      <div class="col-sm-12 col-md-12">
-			        <h1 class="block-title m-b-sm">Coming Soon!</h1>
-			        <p class="lead m-b-md">Games, churros, boros, coffee and more!</p>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-		</div>
-
-
-		<div ng-view>
-			
-		</div>
-	</div>
+	<ng-view></ng-view>
 
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.js"></script>

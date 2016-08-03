@@ -1,1 +1,41 @@
-<h1>TEAM</h1>
+<div class="navbar navbar-inverse p-y">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="/#/" title="Brand" class="navbar-brand">
+				<img src="/img/logo.png" alt="">
+			</a>
+			<ul class="nav navbar-nav navbar-right p-t text-uppercase">
+				<li><a href="/#/about">About</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="aboutBlock" class="block block-lg">
+	<div class="container-fluid p-y">
+		<div class="text-center">
+			<h1 class="white">About Churroboros</h1>
+			<p>Founded by a diverse group of individuals with the goal of creating awesome content</p>
+		</div>
+	</div>
+</div>
+<div class="block block-inverse block-lg">
+	<div class="container">
+		<h1>Origins</h1>
+		<p>Keytar plaid intelligentsia, taxidermy blog kogi celiac echo park slow-carb heirloom man bun four dollar toast yr butcher. Flannel cronut pickled, humblebrag fap vice kinfolk lo-fi man braid before they sold out meggings pour-over small batch biodiesel stumptown. Pickled franzen aesthetic jean shorts. Mustache affogato keffiyeh, ramps lomo tattooed cardigan cornhole truffaut. Tote bag mixtape pour-over you probably haven't heard of them marfa. Locavore beard blue bottle yuccie keytar. Ethical 90's locavore fingerstache tousled listicle pour-over brunch godard banh mi.</p>
+	</div>
+</div>
+<div class="block block-bordered block-lg p-y">
+	<div class="container-fluid">
+		<h1 class="text-center p-b-lg">The Team</h1>
+		<div class="row">
+			<div class="col-md-4 col-sm-12" ng-repeat="item in row1">
+				<blockquote class="pull-quote">
+					<img class="" src={{item.picture}}>
+					<h4>{{item.name}}</h4>
+					<p class="text-muted">"{{item.about | limitTo: 154}}"</p>
+					<cite>- {{item.position}} -</cite>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div>

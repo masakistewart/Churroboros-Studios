@@ -1,12 +1,11 @@
 app.config(function($routeProvider) {
 	$routeProvider
 	.when('/', {
-		templateUrl: 'pages/landing.html'
+		templateUrl: 'views/pages/landing.html',
+		controller: 'MainController'
 	})
-	.when('/contact', {
-		templateUrl: 'pages/contact.html'
-	})
-	.when('/team', {
-		templateUrl: 'pages/team.html'
+	.when('/about', {
+		templateUrl: 'views/pages/team.html',
+		controller: 'MainController'
 	})
 })

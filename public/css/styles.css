@@ -1,3 +1,7 @@
+body {
+	background: black;
+	font-size: 16px;
+}
 a, button, {
 	color: #455A64;
 }
@@ -8,4 +12,27 @@ a, button, {
 
 a.navbar-brand img{
 	height: 58px;
+}
+
+#mainBlock {
+	background: url(../img/main.jpg);
+	background-size: cover;
+	background-position: 55% 50%;
+}
+
+#aboutBlock {
+	background: url(/img/main1.jpeg);
+	background-size: cover;
+	background-position: 55% 50%;
+	color: white;
+	font-size: 1.5em;
+}
+
+h1.white {
+	color: white;
+}
+
+.navbar.navbar-inverse {
+	background: black;
+	border-radius: 0;
 }
