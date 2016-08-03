@@ -6,24 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/application-startup.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-	<style>
-	  /* note: this is a hack for ios iframe for bootstrap themes shopify page */
-	  /* this chunk of css is not part of the toolkit :) */
-	  /* …curses ios, etc… */
-	  @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-	    body {
-	      width: 1px;
-	      min-width: 100%;
-	      *width: 100%;
-	    }
-	    #stage {
-	      height: 1px;
-	      overflow: auto;
-	      min-height: 100vh;
-	      -webkit-overflow-scrolling: touch;
-	    }
-	  }
-	</style>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<ng-view></ng-view>

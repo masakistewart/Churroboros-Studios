@@ -16,8 +16,8 @@ a.navbar-brand img{
 
 #mainBlock {
 	background: url(../img/main.jpg);
-	background-size: cover;
-	background-position: 55% 50%;
+	background-size:cover;
+	background-position: 50% 50%;
 }
 
 #aboutBlock {
