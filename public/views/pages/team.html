@@ -21,17 +21,26 @@
 <div class="block block-inverse block-lg">
 	<div class="container">
 		<h1>Origins</h1>
-		<p>Keytar plaid intelligentsia, taxidermy blog kogi celiac echo park slow-carb heirloom man bun four dollar toast yr butcher. Flannel cronut pickled, humblebrag fap vice kinfolk lo-fi man braid before they sold out meggings pour-over small batch biodiesel stumptown. Pickled franzen aesthetic jean shorts. Mustache affogato keffiyeh, ramps lomo tattooed cardigan cornhole truffaut. Tote bag mixtape pour-over you probably haven't heard of them marfa. Locavore beard blue bottle yuccie keytar. Ethical 90's locavore fingerstache tousled listicle pour-over brunch godard banh mi.</p>
+		<p>Keytar plaid intelligentsia, taxidermy blog kogi celiac echo park slow-carb heirloom man bun four dollar toast yr butcher. Flannel cronut pickled, humblebrag fap vice</p>
+		<p>kinfolk lo-fi man braid before they sold out meggings pour-over small batch biodiesel stumptown. Pickled franzen aesthetic jean shorts. Mustache affogato keffiyeh, ramps lomo tattooed cardigan cornhole truffaut. Tote bag mixtape pour-over you probably haven't heard of them marfa. Locavore beard blue bottle yuccie keytar. Ethical 90's locavore fingerstache tousled listicle pour-over brunch godard banh mi.</p>
 	</div>
 </div>
 <div class="block block-bordered block-lg p-y">
 	<div class="container-fluid">
 		<h1 class="text-center p-b-lg">The Team</h1>
 		<div class="row">
-			<div class="col-md-4 col-sm-12" ng-repeat="item in row1">
+			<div class="col-md-4 col-sm-12 p-b-md" ng-repeat="item in row1">
 				<blockquote class="pull-quote">
-					<img class="" src={{item.picture}}>
-					<h4>{{item.name}}</h4>
+					<img class="img-rounded" src={{item.picture}}>
+					<h4><a href="https://www.linkedin.com/in/michael-pompili-916a0837">{{item.name}}</a></h4>
+					<p class="text-muted">"{{item.about | limitTo: 154}}"</p>
+					<cite>- {{item.position}} -</cite>
+				</blockquote>
+			</div>
+			<div class="col-md-4 col-sm-12 p-t-md" ng-repeat="item in row2">
+				<blockquote class="pull-quote">
+					<img class="img-rounded" src={{item.picture}}>
+					<h4><a href="https://www.linkedin.com/in/michael-pompili-916a0837">{{item.name}}</a></h4>
 					<p class="text-muted">"{{item.about | limitTo: 154}}"</p>
 					<cite>- {{item.position}} -</cite>
 				</blockquote>
