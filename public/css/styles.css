@@ -15,9 +15,9 @@ a.navbar-brand img{
 }
 
 #mainBlock {
-	background: url(../img/main.jpg);
-	background-size:cover;
-	background-position: 50% 50%;
+	background-image: url(../img/main.jpg);
+	background-size: cover;
+	background-position: center center;
 }
 
 #aboutBlock {
