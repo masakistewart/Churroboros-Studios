@@ -19,13 +19,22 @@ a.navbar-brand img{
 	background-size: cover;
 	background-position: center center;
 }
-
+/* alt image /img/main1.jpeg */
 #aboutBlock {
-	background: url(/img/main1.jpeg);
+	background: url(https://cdn3.vox-cdn.com/thumbor/0YNnwNnxXoGm91k5-bVXmnQSAeU=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6286129/jbareham_160401_1007_0033_02__1_.0.png);
 	background-size: cover;
-	background-position: 55% 50%;
+	background-position: 50% 30%;
 	color: white;
 	font-size: 1.5em;
+	height: 18.75em;
+}
+
+.about-writing {
+	font-size: 1.2em;
+}
+
+.pull-quote>p {
+	font-size: .8em;
 }
 
 h1.white {
