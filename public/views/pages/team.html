@@ -12,7 +12,7 @@
 </div>
 <div id="aboutBlock" class="block block-lg">
 	<div class="container-fluid p-y">
-		<div class="text-center">
+		<div class="text-center an-css">
 			<h1 class="white">Churroboros</h1>
 			<p>Founded by a diverse group of individuals with the goal of creating awesome content</p>
 		</div>
@@ -73,10 +73,10 @@
 	  </div>
 	</div>
 </div>
-<div class="">
+<div>
 	<div class="container-fluid">
 		<div class="row block-inverse p-t-lg">
-			<h1 class="text-center p-b-lg bounce">The Team</h1>
+			<fade-In></fade-In>
 			<div class="col-md-4 col-sm-12 p-b-md about-person" ng-repeat="item in row1">
 				<blockquote class="pull-quote">
 					<img class="img-rounded" ng-src={{item.picture}}>
@@ -90,7 +90,7 @@
 			<div class="col-md-4 col-sm-12 p-t-md" ng-repeat="item in row2">
 				<blockquote class="pull-quote">
 					<img class="img-rounded" src={{item.picture}}>
-					<h4><a href="https://www.linkedin.com/in/michael-pompili-916a0837">{{item.name}}</a></h4>
+					<h4><a href="https://www.linkedin.com/in/michael-pompili-916a0837 fadeDown">{{item.name}}</a></h4>
 					<p class="text-muted">"{{item.about | limitTo: 154}}"</p>
 					<cite>- {{item.position}} -</cite>
 				</blockquote>
@@ -98,6 +98,3 @@
 		</div>
 	</div>
 </div>
-
-<script type="text/javascript" src="js/style.js"></script>
-	<script src="js/application.js"></script>
