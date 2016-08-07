@@ -5,6 +5,12 @@ app.controller('MainController', function($scope, $http){
 		$scope.row2 = [teams[3], teams[4], teams[5]]
 		// console.log(teams);
 	});
+
+	$scope.load = function() {
+		$(".nothing").removeClass("nothing");
+	}
+
+	$scope.load();
 })
 
 app.directive('fadeIn',  function() {
@@ -31,9 +37,9 @@ return {
 
         		if((element_bottom_position >= window_top_position) &&
         				(element_top_position <= window_bottom_position)) {
-        			$element.addClass('animated fadeInDown');
+        			$element.addClass('animated fadeInUp');
         		} else {
-        			$element.removeClass('animated fadeInDown');
+        			$element.removeClass('animated fadeInUp');
         		}
         	})
         }
