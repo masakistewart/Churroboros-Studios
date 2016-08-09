@@ -38,8 +38,6 @@ return {
         		if((element_bottom_position >= window_top_position) &&
         				(element_top_position <= window_bottom_position)) {
         			$element.addClass('animated fadeInUp');
-        		} else {
-        			$element.removeClass('animated fadeInUp');
         		}
         	})
         }
