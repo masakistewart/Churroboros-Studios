@@ -4,8 +4,7 @@ app.config(function($routeProvider) {
 		templateUrl: 'views/pages/landing.html',
 		controller: 'MainController'
 	})
-	.when('/about', {
-		templateUrl: 'views/pages/team.html',
-		controller: 'MainController'
+	.otherwise({
+		templateUrl: "views/pages/404.html"
 	})
 })

@@ -1,4 +1,4 @@
-<div class="block block-fill-height block-inverse" id="mainBlock">
+<div class="block block-fill-height block-inverse an-css" id="mainBlock">
 	<div class="navbar navbar-transparent navbar-fixed-top navbar-padded">
 		<div class="container">
 			<div class="navbar-header">
@@ -6,16 +6,94 @@
 					CHURROBOROS
 				</a>
 			</div>
-			<div class="navbar-collapse collapse text-uppercase">
-				<ul class="nav navbar-nav">
-					<li>
-						<a href="/#/about">About</a>
-					</li>
-				</ul>
-			</div>
 		</div>
 	</div>
 	<div class="block-foreground block-xs-middle p-y-lg text-center">
-		<h1>Coming Soon :)</h1>
 	</div>
 </div>
+<div id="aboutBlock" class="block block-lg an-css nothing">
+	<div class="container-fluid p-y">
+		<div class="text-center">
+			<h1 class="white">Churroboros</h1>
+			<p>Founded by a diverse group of individuals with the goal of creating awesome content</p>
+		</div>
+	</div>
+</div>
+<div class="block about-writing an-css">
+	<div class="container-fluid">
+	  <div class="row">
+	    <div class="col-sm-6">
+	      <ul class="featured-list featured-list-bordered">
+	        <li class="m-b-md">
+	          <div class="featured-list-icon">
+	            <span class="icon icon-info"></span>
+	          </div>
+
+	          <h3>Origins</h3>
+	          <p>
+	            <!-- Use dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to. -->
+	            Kogi kale chips microdosing bitters, shabby chic fanny pack hella tattooed listicle man bun craft beer selvage venmo green juice. 3 wolf moon sustainable pop-up, etsy sriracha scenester trust fund.
+	          </p>
+	        </li>
+
+	        <li>
+	          <div class="featured-list-icon">
+	            <span class="icon icon-folder"></span>
+	          </div>
+	          <h3>Platforms</h3>
+	          <p>
+	            Tilde food truck poutine, heirloom farm-to-table venmo four dollar toast YOLO kickstarter lumbersexual XOXO celiac. Chia small batch master cleanse sartorial banh mi fashion axe, gluten-free forage thundercats pitchfork locavore keytar. 
+	          </p>
+	        </li>
+	      </ul>
+	    </div>
+	    <div class="col-sm-6">
+	      <ul class="featured-list featured-list-bordered">
+	        <li class="m-b-md">
+	          <div class="featured-list-icon">
+	            <span class="icon icon-game-controller"></span>
+	          </div>
+
+	          <h3>Games</h3>
+	          <p>
+	            Tilde food truck poutine, heirloom farm-to-table venmo four dollar toast YOLO kickstarter lumbersexual XOXO celiac. Chia small batch master cleanse sartorial banh mi fashion axe, gluten-free forage thundercats pitchfork locavore keytar. 
+	          </p>
+	        </li>
+
+	        <li>
+	          <div class="featured-list-icon">
+	            <span class="icon icon-laptop"></span>
+	          </div>
+	          <h3>Small Studio</h3>
+	          <p>
+	            Tilde food truck poutine, heirloom farm-to-table venmo four dollar toast YOLO kickstarter lumbersexual XOXO celiac. Chia small batch master cleanse sartorial banh mi fashion axe, gluten-free forage thundercats pitchfork locavore keytar. 
+	          </p>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+</div>
+	<div class="">
+		<div class="row block-inverse an-css">
+			<fade-In></fade-In>
+			<div class="col-md-4 col-sm-12 p-b-md about-person" ng-repeat="item in row1">
+				<blockquote class="pull-quote">
+					<img class="img-rounded" ng-src={{item.picture}}>
+					<h4><a href="https://www.linkedin.com/in/michael-pompili-916a0837">{{item.name}}</a></h4>
+					<p class="text-muted">"{{item.about | limitTo: 154}}"</p>
+					<cite>- {{item.position}} -</cite>
+				</blockquote>
+			</div>
+		</div>
+		<div class="row block an-css">		
+			<div class="col-md-4 col-sm-12 p-t-md" ng-repeat="item in row2">
+				<blockquote class="pull-quote">
+					<img class="img-rounded" src={{item.picture}}>
+					<h4><a href="https://www.linkedin.com/in/michael-pompili-916a0837 fadeDown">{{item.name}}</a></h4>
+					<p class="text-muted">"{{item.about | limitTo: 154}}"</p>
+					<cite>- {{item.position}} -</cite>
+				</blockquote>
+			</div>
+		</div>
+	</div>
