@@ -1,0 +1,23 @@
+[
+	{
+		"title": "About",
+		"desc": "",
+		"icon": "icon-info"
+	},
+	{
+		"title": "VR Platforms",
+		"desc": "",
+		"icon": "icon-folder"
+	},
+	{
+		"title": "Games",
+		"desc": "",
+		"icon": "icon-game-controller"
+	},
+	{
+		"title": "Studio",
+		"desc": "",
+		"icon": "icon-laptop"
+	}
+
+]
