@@ -13,6 +13,10 @@ body {
 	color: black;
 }
 
+.light-gray {
+	background: #555;
+}
+
 #mainBlock {
 	background-image: url(../img/main.png);
 	background-repeat: no-repeat;
