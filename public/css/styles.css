@@ -31,7 +31,7 @@ body {
 #aboutBlock {
 	background: url(../img/game-image.png);
 	background-size: cover;
-	background-position: center center;
+	background-position: fixed;
 	color: white;
 	height: 20.75em;
 }
@@ -44,7 +44,7 @@ body {
 #vBeasts {
 	background: url(../img/game-poster.png);
 	background-position: center center;
-	background-size: contain;
+	background-size: 50% 50%;
 	background-repeat: no-repeat;
 	height: 15.75em;
 }
@@ -78,13 +78,6 @@ h1.white {
 	color: white;
 }
 
-#carousel-img-start {
-	max-width:230px;
-	max-height:95px;
-	width: auto;
-	height: auto;
-}
-
 .navbar.navbar-inverse {
 	background: black;
 	border-radius: 0;
@@ -92,4 +85,18 @@ h1.white {
 
 .nothing {
 	display: none;
+}
+
+/* Parallax Code */
+
+section.module.parallax {
+  height: 18.75em;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url("../img/game-image.png");
 }
