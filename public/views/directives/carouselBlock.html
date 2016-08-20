@@ -1,0 +1,62 @@
+<div class="block block-inverse p-y">
+  <div class="container text-center">
+    <h1 class="m-b-0">CHOOSE</h1>
+    <p class="m-b-0">your weapon</p>
+    <h1 class="m-y-0">THROW</h1>
+    <p class="m-b-0">it</p>
+    <h1 class="m-y-0">TELEPORT</h1>
+    <p class="m-b-0">and</p>
+    <h1 class="m-t-0">OBLITERATE YOUR FRIENDS</h1>
+  </div>
+</div>
+<div class="block p-l-0 p-y p-r-0">
+  <div id="carousel-example-generic-2" class="carousel carousel-light slide" data-ride="carousel">
+    
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="block p-y m-b-lg">
+          <div class="container">
+            <blockquote class="pull-quote">
+            	<img id="carousel-img-start" class="img-circle" src="/img/main.png" alt="">
+            	<p>Churroboros</p>
+            	<cite>The Team</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="item" ng-repeat="item in team">
+        <div class="block p-y m-b-lg">
+          <div class="container">
+	            <blockquote class="pull-quote">
+	              <img class="img-circle" src="{{item.picture}}">
+	              <cite>{{item.name}}, {{item.position}}</cite>
+                <p>
+                  “{{item.about}}”
+                </p>
+	            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="3"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="4"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="5"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="6"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="7"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="8"></li>
+      <li data-target="#carousel-example-generic-2" data-slide-to="9"></li>
+    </ol>
+    <!-- <a class="left carousel-control" href="" role="button" data-slide="prev">
+      <span class="icon icon-chevron-thin-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="" role="button" data-slide="next">
+      <span class="icon icon-chevron-thin-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+  </div>
+</div>

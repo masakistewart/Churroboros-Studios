@@ -22,7 +22,7 @@ return {
     link: function(scope, element) {
         var $animation_elements = $('.an-css');
         var $window = $(window);
-        console.log($animation_elements);
+        // console.log($animation_elements);
 
         $window.on('scroll resize', check_if_in_view);
         $window.trigger('scroll')
@@ -46,4 +46,19 @@ return {
         }
        }
     }
-});
+}).directive("pictureBlock", function() {
+    return {
+        link: function(scope, element) {
+            console.log(element)
+        },
+        templateUrl: "views/directives/pictureBlock.html"
+    }
+}).directive("carouselBlock", function() {
+    return {
+        templateUrl: 'views/directives/carouselBlock.html'
+    }
+}).directive("iconWords", function() {
+    return {
+        templateUrl: "views/directives/iconWords.html"
+    }
+})

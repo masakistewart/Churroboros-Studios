@@ -1,32 +1,48 @@
 body {
-	background: ;
+	background: white;
 	font-size: 16px;
 }
-a, button, {
-	color: #455A64;
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
 }
 
-#color {
-	color: #4CAF50;
-}
-
-a.navbar-brand img{
-	height: 58px;
+.navbar-default {
+	background: white;
+	color: black;
 }
 
 #mainBlock {
-	background-image: url(../img/main.jpg);
-	background-size: cover;
+	background-image: url(../img/main.png);
+	background-repeat: no-repeat;
+	background-size: 50% 100%;
+	background-color: black;
 	background-position: center center;
+	height: 20.75em;
 }
+
+
 /* alt image /img/main1.jpeg */
 #aboutBlock {
-	background: url(https://cdn3.vox-cdn.com/thumbor/0YNnwNnxXoGm91k5-bVXmnQSAeU=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6286129/jbareham_160401_1007_0033_02__1_.0.png);
+	background: url(../img/game-image.png);
 	background-size: cover;
 	background-position: 50% 30%;
 	color: white;
 	font-size: 1.5em;
-	height: 18.75em;
+	height: 20.75em;
+}
+
+#aboutBlock h2 {
+	color: white;
+}
+
+#vBeasts {
+	background: url(../img/game-poster.png);
+	background-position: center center;
+	background-size: 90% 75%;
+	background-repeat: no-repeat;
+	height: 15.75em;
 }
 
 .card {
