@@ -11,6 +11,7 @@ app.controller('MainController', function($scope, $http){
 
 	$scope.load = function() {
 		$(".nothing").removeClass("nothing");
+        $(".carousel").carousel();
 	}
 
 	$scope.load();

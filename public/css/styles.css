@@ -16,7 +16,7 @@ body {
 #mainBlock {
 	background-image: url(../img/main.png);
 	background-repeat: no-repeat;
-	background-size: 50% 100%;
+	background-size: contain;
 	background-color: black;
 	background-position: center center;
 	height: 20.75em;
@@ -27,20 +27,20 @@ body {
 #aboutBlock {
 	background: url(../img/game-image.png);
 	background-size: cover;
-	background-position: 50% 30%;
+	background-position: center center;
 	color: white;
-	font-size: 1.5em;
 	height: 20.75em;
 }
 
 #aboutBlock h2 {
 	color: white;
+	font-size: 2em;
 }
 
 #vBeasts {
 	background: url(../img/game-poster.png);
 	background-position: center center;
-	background-size: 90% 75%;
+	background-size: contain;
 	background-repeat: no-repeat;
 	height: 15.75em;
 }
@@ -75,8 +75,10 @@ h1.white {
 }
 
 #carousel-img-start {
-	height: 100px;
-	width: 100px;
+	max-width:230px;
+	max-height:95px;
+	width: auto;
+	height: auto;
 }
 
 .navbar.navbar-inverse {
