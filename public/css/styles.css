@@ -89,14 +89,15 @@ h1.white {
 
 /* Parallax Code */
 
-section.module.parallax {
+div.module.parallax {
   height: 18.75em;
+  padding-bottom: 2em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-section.module.parallax-1 {
+div.module.parallax-1 {
   background-image: url("../img/game-image.png");
 }
