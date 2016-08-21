@@ -47,15 +47,40 @@ return {
         }
 
         $(function(){
-        $(".element").typed({
-        strings: ["<h1 class='white m-b-0 text-uppercase'>CHOOSE your weapon</h1>",
-            "<h1 class='white m-y-0 text-uppercase'>THROW it</h1>",
-            "<h1 class=' white m-y-0 text-uppercase'>TELEPORT and</h1>",
-            "<h1 class='white m-t-0 text-uppercase'>OBLITERATE YOUR FRIENDS</h1>"],
-        loop: true,
-        typeSpeed: 0
-      });
-  });
+            $(".element").typed({
+            strings: ["<h1 class='white m-b-0 text-uppercase'>CHOOSE your weapon</h1>",
+                "<h1 class='white m-y-0 text-uppercase'>THROW it</h1>",
+                "<h1 class=' white m-y-0 text-uppercase'>TELEPORT and</h1>",
+                "<h1 class='white m-t-0 text-uppercase'>OBLITERATE YOUR FRIENDS</h1>"],
+                loop: true,
+                typeSpeed: 0
+            });
+        });
+
+
+        $("#contact").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#contact-marker").offset().top
+            }, 'fast');
+        });
+
+        $("#games").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#games-marker").offset().top
+            }, 'fast');
+        });
+
+        $("#team").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#team-marker").offset().top
+            }, 'fast');
+        });
+
+        $("#about").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#about-marker").offset().top
+            }, 'fast');
+        });
        }
     }
 }).directive("pictureBlock", function() {
