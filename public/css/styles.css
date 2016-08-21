@@ -74,8 +74,8 @@ body {
 	font-size: 1em;
 }
 
-h1.white {
-	color: white;
+h2.white {
+	color: rgba(255,255,255, .8);
 }
 
 .navbar.navbar-inverse {
@@ -90,8 +90,7 @@ h1.white {
 /* Parallax Code */
 
 div.module.parallax {
-  height: 18.75em;
-  padding-bottom: 2em;
+  height: 22.75em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
