@@ -1,6 +1,8 @@
 body {
 	background: white;
 	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 .navbar {
@@ -8,7 +10,7 @@ body {
 	border-radius: 0;
 }
 
-.navbar-default {
+.navbar.navbar-default a{
 	background: white;
 	color: black;
 }
@@ -23,16 +25,14 @@ body {
 	background-size: contain;
 	background-color: black;
 	background-position: center center;
-	height: 20.75em;
+	height: 10em;
 }
-
 
 /* alt image /img/main1.jpeg */
 #aboutBlock {
 	background: url(../img/game-image.png);
 	background-size: cover;
 	background-position: fixed;
-	color: white;
 	height: 20.75em;
 }
 
@@ -44,28 +44,12 @@ body {
 #vBeasts {
 	background: url(../img/game-poster.png);
 	background-position: center center;
-	background-size: 50% 50%;
+	background-size: 100% 50%;
 	background-repeat: no-repeat;
 	height: 15.75em;
 }
 
-.card {
-	padding: 1em;
-	height: 16.375em;
-	width: 16.375em;
-	background: rgba(220,220,220, .5);
-	border-radius: 8px;
-}
 
-.card img {
-	height: 8em;
-	width: 8em;
-	border: 1px, white;
-	margin-bottom: 5px;
-}
-.card.writing {
-	font-size: .75em;
-}
 .about-writing {
 	font-size: 1.2em;
 }
@@ -90,13 +74,39 @@ h2.white {
 /* Parallax Code */
 
 div.module.parallax {
-  height: 22.75em;
-  background-position: 50% 50%;
+  height: 25.75em;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+#throw-text {
+	margin-top: 3em;
+}
+
 div.module.parallax-1 {
   background-image: url("../img/game-image.png");
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
