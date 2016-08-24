@@ -49,17 +49,12 @@ return {
         $(function(){
             $(".element").typed({
             strings: [
-                        "<h1 class='white text-uppercase'>CHOOSE your weapon</h1>",
-                        "<h1 class='white text-uppercase'>THROW it</h1>",
-                        "<h1 class=' white text-uppercase'>TELEPORT and</h1>",
-                        "<h1 class='white text-uppercase'>OBLITERATE YOUR FRIENDS</h1>"
+                        "<h1>Ever want to throw something at your friends?</h1>"
                     ],
-                loop: true,
+                contentType: 'html',
+                cursorChar: ''
             });
         });
-        setInterval(function() {
-            $('.carousel').carousel();
-        }, "fast");
 
 
         $("#contact").click(function() {

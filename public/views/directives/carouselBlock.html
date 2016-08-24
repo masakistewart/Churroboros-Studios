@@ -12,27 +12,29 @@
   </div>
 </div> -->
   
-<div id="team-marker" class="block light-gray">
+<div id="team-marker" class="block p-y-0 light-gray">
+  <h2 class="white text-center p-t">The Team</h2>
   <div id="carousel-example-generic-2" class="carousel carousel-light slide" data-ride="carousel">
     
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <div class="block light-gray">
+        <div class="block p-t light-gray">
           <div class="container">
             <blockquote class="pull-quote">
-            	<img id="carousel-img-start" class="img-rounded" src="/img/logo.png" alt="">
+            	<img id="carousel-img-start" class="img-rounded" src="/img/logo.png" alt="Churroboros logo">
             	<p>Churroboros</p>
-            	<cite>The Team</cite>
+            	<cite>San Francisco, CA</cite>
             </blockquote>
           </div>
         </div>
       </div>
       <div class="item" ng-repeat="item in team">
-        <div class="block light-gray">
+        <div class="block p-t light-gray">
           <div class="container">
 	            <blockquote class="pull-quote">
-	              <img class="img-rounded" src="{{item.picture}}">
-	              <cite>{{item.name}}, {{item.position}}</cite>
+	              <img class="img-rounded" src="{{item.picture}}" alt="{{item.name}} - {{item.position}} -">
+	              <cite>{{item.name}}</cite>
+                <cite class="p-y-0 m-y-0 light-grey">{{item.position}}</cite>
                 <p>
                   “{{item.about}}”
                 </p>
@@ -41,7 +43,7 @@
         </div>
       </div>
     </div>
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators p-t">
       <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
       <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>

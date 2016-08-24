@@ -17,7 +17,7 @@ body {
 
 .light-gray {
 	background: black;
-	color: white;
+	color: #eee;
 }
 
 #mainBlock {
@@ -60,8 +60,8 @@ body {
 	font-size: 2em;
 }
 
-#about-marker p{
-	font-size: 1.7em;
+#about-marker p {
+	font-size: 1.5em;
 	font-weight: normal;
 }
 
