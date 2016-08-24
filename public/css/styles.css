@@ -16,16 +16,28 @@ body {
 }
 
 .light-gray {
-	background: #555;
+	background: black;
+	color: white;
 }
 
 #mainBlock {
+	margin-top: 3.2em;
 	background-image: url(../img/main.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: black;
 	background-position: center center;
-	height: 10em;
+	height: 25em;
+}
+
+.second-block {
+	height: 50%;
+	background: black;
+	color: white;
+}
+
+.second-block h2 {
+	color: white;
 }
 
 /* alt image /img/main1.jpeg */
@@ -36,9 +48,21 @@ body {
 	height: 20.75em;
 }
 
+.container-sm {
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #aboutBlock h2 {
 	color: white;
 	font-size: 2em;
+}
+
+#about-marker p{
+	font-size: 1.7em;
+	font-weight: normal;
 }
 
 #vBeasts {
@@ -47,15 +71,18 @@ body {
 	background-size: 100% 50%;
 	background-repeat: no-repeat;
 	height: 15.75em;
-}
-
-
-.about-writing {
-	font-size: 1.2em;
+	width: auto;
+	margin-top: 2em;
+	margin-bottom: 0;
 }
 
 .pull-quote>p {
 	font-size: 1em;
+}
+
+.pull-quote img {
+	width: auto;
+	height: 8em;
 }
 
 h2.white {
@@ -69,6 +96,10 @@ h2.white {
 
 .nothing {
 	display: none;
+}
+
+.app-footer {
+	padding: 2em 0 2em 0;
 }
 
 /* Parallax Code */

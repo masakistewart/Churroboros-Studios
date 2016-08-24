@@ -48,14 +48,17 @@ return {
 
         $(function(){
             $(".element").typed({
-            strings: ["<h1 class='white m-b-0 text-uppercase'>CHOOSE your weapon</h1>",
-                "<h1 class='white m-y-0 text-uppercase'>THROW it</h1>",
-                "<h1 class=' white m-y-0 text-uppercase'>TELEPORT and</h1>",
-                "<h1 class='white m-t-0 text-uppercase'>OBLITERATE YOUR FRIENDS</h1>"],
+            strings: [
+                        "<h1 class='white text-uppercase'>CHOOSE your weapon</h1>",
+                        "<h1 class='white text-uppercase'>THROW it</h1>",
+                        "<h1 class=' white text-uppercase'>TELEPORT and</h1>",
+                        "<h1 class='white text-uppercase'>OBLITERATE YOUR FRIENDS</h1>"
+                    ],
                 loop: true,
-                typeSpeed: 0
             });
         });
+
+        $('.carousel').carousel();
 
 
         $("#contact").click(function() {
