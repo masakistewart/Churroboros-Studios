@@ -57,8 +57,9 @@ return {
                 loop: true,
             });
         });
-
-        $('.carousel').carousel();
+        setInterval(function() {
+            $('.carousel').carousel();
+        }, "fast");
 
 
         $("#contact").click(function() {
